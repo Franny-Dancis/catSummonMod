@@ -12,8 +12,7 @@ namespace catSummonMod.Items
 		public override void SetStaticDefaults() {
 			DisplayName.SetDefault("Jojo, the flying cat!");
 			// Sets the amount of frames this minion has on its spritesheet
-			// MAKE SURE THAT THE LINE BELOW IS ALWAYS COMMENTED OUT. IT WILL CAUSE THE SPRITE TO ONLY LOAD THE TOP FOUR FRAMES. VERY ANNOYING, TOOK ME 20 MINUTES TO SOLVE. - PAST DANY (7/31/2020)
-			Main.projFrames[projectile.type] = 15;
+			Main.projFrames[projectile.type] = 14;
 			// Denotes that this projectile is a pet or minion
 			Main.projPet[projectile.type] = true;
 			// This is needed so your minion can properly spawn when summoned and replaced when other minions are summoned
